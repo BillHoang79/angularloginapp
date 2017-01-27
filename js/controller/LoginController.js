@@ -1,4 +1,4 @@
-app.controller('LoginController', ['$cope', '$routeParams', function($scope, $routeParams) {
+app.controller('LoginController', ['$scope', '$routeParams', function($scope, $routeParams) {
 
 	// Login functionality
 	function getInfo() {
@@ -7,7 +7,7 @@ app.controller('LoginController', ['$cope', '$routeParams', function($scope, $ro
 		var password = document.getelementById("password").value
 
 		// Loop through all the user objects and confirm if the username and passwords are correct
-		for(i = 0; < objPeople.length; i++) {
+		for(i = 0; i < objPeople.length; i++) {
 			if(username == objPeople[i].username && password == objPeople[i].password) {
 				console.log(username + " is logged in!!!")
 				window.location = "#/profile";

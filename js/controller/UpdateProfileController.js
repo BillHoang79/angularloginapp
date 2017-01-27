@@ -9,7 +9,7 @@ app.controller('UpdateProfileController', ['$scope', '$routeParams', function($s
 		var bio   = document.getElementById('bio').value
 
 		for(i = 0; i < radios.length; i++) {
-			if(radios[i]checked)
+			if(radios[i].checked)
 				var radiosValue = radios[i].value
 		}
 
