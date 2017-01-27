@@ -1,0 +1,59 @@
+.container {
+	margin-top: 20px;
+}
+
+.container > a {
+	float: right;
+}
+
+.container form {
+	width: 20%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 100px;
+	border: 1px solid lightgray;
+	border-radius: 5px
+}
+
+.container form .input {
+	display: block;
+	margin-top: 20px auto;
+}
+
+.container form button {
+	display: block;
+	margin: 20px auto;
+}
+
+.container form#updateProfileForm {
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 100px;
+	padding: 40px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+}
+
+.container form#updateProfileForm .input {
+	display: block;
+	margin: 20px auto;
+}
+
+.container form#updateProfileForm button {
+	display: block;
+	margin: 20px auto;
+}
+
+.container div.profile {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding: 40px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+}
+
+.container div.profile span {
+	font-weight: lighter;
+}

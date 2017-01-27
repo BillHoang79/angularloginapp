@@ -1,0 +1,31 @@
+<div class="container">
+	<a href="#/profile">profile</a>
+<form id="updateProfileForm">
+
+	<!-- col 1 -->
+	<div class="name">
+		<label for="name">Name:</label>
+		<input type="text" placeholder="Enter your name" name="name" id="name" title="Please enter your name">
+	</div>
+	<div class="gender">
+		<label for="gender">Male:</label>
+		<input type="radio" value="male" name="gender" id="male">
+		<label for="gender">Female:</label>
+		<input type="radio" name="female" name="gender" id="female">
+	</div>
+	<div class="phone">
+		<label for="phone">Phone:</label>
+		<input type="phone" placeholder="(123) 555-5555" id="phone">
+	</div>
+	<div class="email">
+		<label for="email">Email:</label>
+		<input type="email" placeholder="you@example.com" id="email">
+	</div>
+	<div class="bio">
+		<label for="bio">Short Bio (max 140 characters:</label>
+		<textarea name="bio" id="bio" rows="5" cols="30"></textarea>
+		<span id="bio-count">140</span>
+	</div>
+	<div class="submit"><button type="submit" id="updateProfile">click me</button></div>
+</form>
+</div>
