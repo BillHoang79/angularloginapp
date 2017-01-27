@@ -5,5 +5,5 @@ app.factory('users', ['$http', function($http) {
 			})
 			.error(function(data) {
 	 		  return data;
-			})
-}])
+			});
+}]);
